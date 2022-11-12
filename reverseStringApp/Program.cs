@@ -14,6 +14,7 @@ namespace reverseStringApp
             ReverseStringMethod(inputString);
             ReverseStringCountBackwards(inputString);
             ReverseStringTwoPointers(inputString);
+            Console.WriteLine(ReverseStringRecurisvely(inputString));
 
             string ReverseStringMethod(string s)
             {
@@ -71,6 +72,20 @@ namespace reverseStringApp
                 Console.WriteLine(result);
 
                 return result;
+            }
+
+            string ReverseStringRecurisvely(string s)
+            {
+
+                if (s.Length > 0)
+                {
+                    return s[s.Length - 1] + ReverseStringRecurisvely(s.Substring(0, s.Length - 1));
+                }
+                else
+                {
+                    Console.WriteLine("Reverse the string using recursion to strip off elements until the end, then build the string back up in reverse order");
+                    return s;
+                }
             }
         }
     }
