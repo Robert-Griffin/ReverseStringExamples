@@ -1,0 +1,14 @@
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\bin\Debug\netcoreapp3.1\reverseStringApp.exe
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\bin\Debug\netcoreapp3.1\reverseStringApp.deps.json
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\bin\Debug\netcoreapp3.1\reverseStringApp.runtimeconfig.json
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\bin\Debug\netcoreapp3.1\reverseStringApp.runtimeconfig.dev.json
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\bin\Debug\netcoreapp3.1\reverseStringApp.dll
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\bin\Debug\netcoreapp3.1\reverseStringApp.pdb
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.csproj.AssemblyReference.cache
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.AssemblyInfoInputs.cache
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.AssemblyInfo.cs
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.csproj.CoreCompileInputs.cache
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.dll
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.pdb
+C:\Users\Robert\source\repos\reverseStringApp\reverseStringApp\obj\Debug\netcoreapp3.1\reverseStringApp.genruntimeconfig.cache
