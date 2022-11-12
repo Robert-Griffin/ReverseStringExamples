@@ -13,6 +13,7 @@ namespace reverseStringApp
 
             ReverseStringMethod(inputString);
             ReverseStringCountBackwards(inputString);
+            ReverseStringTwoPointers(inputString);
 
             string ReverseStringMethod(string s)
             {
@@ -47,6 +48,29 @@ namespace reverseStringApp
                 Console.WriteLine(result);
                 return result;
 
+            }
+
+            string ReverseStringTwoPointers(string s)
+            {
+                int a_pointer = 0;
+                int b_pointer = s.Length - 1;
+                char[] array = s.ToCharArray();
+
+                Console.WriteLine("Reverse by converting to char[] and using two pointer method");
+
+                while (a_pointer <= b_pointer)
+                {
+                    char swap = array[b_pointer];
+                    array[b_pointer] = array[a_pointer];
+                    array[a_pointer] = swap;
+                    a_pointer++;
+                    b_pointer--;
+                }
+
+                string result = new string(array);
+                Console.WriteLine(result);
+
+                return result;
             }
         }
     }
