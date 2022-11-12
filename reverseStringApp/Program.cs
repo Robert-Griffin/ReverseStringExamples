@@ -12,6 +12,7 @@ namespace reverseStringApp
 
 
             ReverseStringMethod(inputString);
+            ReverseStringCountBackwards(inputString);
 
             string ReverseStringMethod(string s)
             {
@@ -30,6 +31,23 @@ namespace reverseStringApp
 
             }
 
+            string ReverseStringCountBackwards(string s)
+            {
+                Console.WriteLine("Reverse by using while loop to count backwards from the last char in the string");
+
+                string result = "";
+
+                int pointer = s.Length - 1;
+
+                while (pointer >= 0)
+                {
+                    result += s[pointer];
+                    pointer--;
+                }
+                Console.WriteLine(result);
+                return result;
+
+            }
         }
     }
 }
